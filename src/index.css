@@ -1,15 +1,45 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: #000;
-  color: #fff;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: #fff;
+	color: #000;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+	justify-content: center;
+	height: 95vh;
+}
+
+.emoji {
+	background-image: url("./assets/party.png");
+	height: 100px;
+	width: 100px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin-top: 6rem;
+}
+
+.eirik {
+	background-image: url("./assets/eirik.png");
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-bottom: 0;
+}
+
+p {
+	font-size: 2rem;
 }
